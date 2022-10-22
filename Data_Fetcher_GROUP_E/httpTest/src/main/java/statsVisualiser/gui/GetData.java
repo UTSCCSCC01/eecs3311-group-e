@@ -11,13 +11,13 @@ import java.util.ArrayList;
  * @author Dinuja Wattage (217564204)
  */
 public class GetData {
-	String analysis = ""; //user input
-	String startDate = ""; //user input
-	String endDate = ""; //user input
-	String country = "";
-	String urlString = "";
-	ArrayList<Double> valueOfYear = new ArrayList<Double>();
-	ArrayList<Integer> year = new ArrayList<Integer>();
+	public String analysis = ""; //user input
+	public String startDate = ""; //user input
+	public String endDate = ""; //user input
+	public String country = "";
+	public String urlString = "";
+	public ArrayList<Double> valueOfYear = new ArrayList<Double>();
+	public ArrayList<Integer> year = new ArrayList<Integer>();
 	
 	/**
 	 * Initializes the data object to store the type of analysis being requested,

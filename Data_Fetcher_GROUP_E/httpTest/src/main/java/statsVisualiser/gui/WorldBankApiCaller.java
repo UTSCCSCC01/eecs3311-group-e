@@ -20,9 +20,9 @@ import com.google.gson.JsonParser;
  * @author Dinuja Wattage (217564204)
  */
 public class WorldBankApiCaller {
-	ArrayList<Double> valueOfYear = new ArrayList<Double>();
-	ArrayList<Integer> year = new ArrayList<Integer>();
-	String urlString = "";
+	public ArrayList<Double> valueOfYear = new ArrayList<Double>();
+	public ArrayList<Integer> year = new ArrayList<Integer>();
+	public String urlString = "";
 
 	/**
 	 * Initializes the WorldBankApiCaller with the URL string for data
